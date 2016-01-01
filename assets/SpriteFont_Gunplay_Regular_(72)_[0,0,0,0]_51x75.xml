@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PersistableFontDetails xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Letterset>0123456789:,.</Letterset>
+  <AdjustHeight>0</AdjustHeight>
+  <AdjustWidth>0</AdjustWidth>
+  <SampleText>100</SampleText>
+  <ShiftHorz>0</ShiftHorz>
+  <ShiftVert>0</ShiftVert>
+  <ShowGrid>true</ShowGrid>
+  <ShowBoundary>false</ShowBoundary>
+  <Size>72</Size>
+  <StrikeOut>false</StrikeOut>
+  <Underline>false</Underline>
+  <IsFill>true</IsFill>
+  <IsOutlineOne>true</IsOutlineOne>
+  <IsOutlineTwo>false</IsOutlineTwo>
+  <IsShadow>false</IsShadow>
+  <OutlineOneWidth>6</OutlineOneWidth>
+  <OutlineTwoWidth>10</OutlineTwoWidth>
+  <ShadowWidth>4</ShadowWidth>
+  <ShadowOffsetX>4</ShadowOffsetX>
+  <ShadowOffsetY>4</ShadowOffsetY>
+  <FontStyleDisplayName>Regular</FontStyleDisplayName>
+  <Height>75</Height>
+  <Width>51</Width>
+  <FontFamilyName>Gunplay</FontFamilyName>
+  <FontStyleName>Normal</FontStyleName>
+  <FontStretchName>Normal</FontStretchName>
+  <FontWeightName>Normal</FontWeightName>
+  <FillColourName>#FFFFFFFF</FillColourName>
+  <OutlineOneColourName>#FF808080</OutlineOneColourName>
+  <OutlineTwoColourName>#FF000000</OutlineTwoColourName>
+  <ShadowColourName>#80000000</ShadowColourName>
+  <SampleBackgroundColourName>#FF00FFFF</SampleBackgroundColourName>
+</PersistableFontDetails>
