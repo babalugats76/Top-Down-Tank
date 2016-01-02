@@ -15,18 +15,18 @@
   <IsOutlineOne>true</IsOutlineOne>
   <IsOutlineTwo>false</IsOutlineTwo>
   <IsShadow>false</IsShadow>
-  <OutlineOneWidth>6</OutlineOneWidth>
+  <OutlineOneWidth>10</OutlineOneWidth>
   <OutlineTwoWidth>10</OutlineTwoWidth>
   <ShadowWidth>4</ShadowWidth>
   <ShadowOffsetX>4</ShadowOffsetX>
   <ShadowOffsetY>4</ShadowOffsetY>
-  <FontStyleDisplayName>Regular</FontStyleDisplayName>
-  <Height>142</Height>
-  <Width>94</Width>
+  <FontStyleDisplayName>Bold</FontStyleDisplayName>
+  <Height>149</Height>
+  <Width>100</Width>
   <FontFamilyName>Gunplay</FontFamilyName>
   <FontStyleName>Normal</FontStyleName>
   <FontStretchName>Normal</FontStretchName>
-  <FontWeightName>Normal</FontWeightName>
+  <FontWeightName>Bold</FontWeightName>
   <FillColourName>#FFFFFFFF</FillColourName>
   <OutlineOneColourName>#FF808080</OutlineOneColourName>
   <OutlineTwoColourName>#FF000000</OutlineTwoColourName>
