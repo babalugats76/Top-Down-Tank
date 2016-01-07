@@ -16,19 +16,19 @@
   <IsOutlineTwo>false</IsOutlineTwo>
   <IsShadow>false</IsShadow>
   <OutlineOneWidth>10</OutlineOneWidth>
-  <OutlineTwoWidth>10</OutlineTwoWidth>
+  <OutlineTwoWidth>4</OutlineTwoWidth>
   <ShadowWidth>4</ShadowWidth>
   <ShadowOffsetX>4</ShadowOffsetX>
   <ShadowOffsetY>4</ShadowOffsetY>
-  <FontStyleDisplayName>Bold</FontStyleDisplayName>
-  <Height>149</Height>
-  <Width>100</Width>
-  <FontFamilyName>Gunplay</FontFamilyName>
+  <FontStyleDisplayName>Regular</FontStyleDisplayName>
+  <Height>114</Height>
+  <Width>91</Width>
+  <FontFamilyName>Major Snafu</FontFamilyName>
   <FontStyleName>Normal</FontStyleName>
   <FontStretchName>Normal</FontStretchName>
-  <FontWeightName>Bold</FontWeightName>
+  <FontWeightName>Normal</FontWeightName>
   <FillColourName>#FFFFFFFF</FillColourName>
-  <OutlineOneColourName>#FF808080</OutlineOneColourName>
+  <OutlineOneColourName>#FF484437</OutlineOneColourName>
   <OutlineTwoColourName>#FF000000</OutlineTwoColourName>
   <ShadowColourName>#80000000</ShadowColourName>
   <SampleBackgroundColourName>#FF00FFFF</SampleBackgroundColourName>
