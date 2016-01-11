@@ -5,18 +5,24 @@ All materials licensed under CC0 unless otherwise specified.
 
 Software: 
 
-	Construct 2 (Free Edition) by Scirra
-        https://www.scirra.com/
-
-        ShoeBox
-        http://renderhjs.net/shoebox/
+        Audacity
+        http://audacityteam.org/ 
 
         Audio Tool 
         https://www.audiotool.com/
 
+	Construct 2 (Free Edition) by Scirra
+        https://www.scirra.com/
+
         Give Your Fonts Mono
         http://blackhornettechnologies.com/construct2/ 
-        https://www.scirra.com/forum/sprite-font-generator-v2_t86546 
+        https://www.scirra.com/forum/sprite-font-generator-v2_t86546
+  
+        Kenney Studio
+        http://kenney.nl/projects/kenney-studio
+
+        ShoeBox
+        http://renderhjs.net/shoebox/
         
 Graphic assets
 
