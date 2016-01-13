@@ -1,0 +1,34 @@
+You need to "sign" your apps; this is how the folks at Android verify your identify as the proud owner of whatever app you are seeking to publish/distribute
+
+Make sure Java is in the path
+set JAVA_HOME="C:\Program Files\Java\jdk1.8.0_65"
+set PATH=%PATH%;%JAVA_HOME%\bin
+
+Generate a private key using keytool. 
+
+For example:
+keytool -genkey -v -keystore tank-run-release-key.keystore -alias tankrun -keyalg RSA -keysize 2048 -validity 10000
+Enter and confirm keystore's password
+When prompted, enter in your information and confirm by typing "yes"
+
+Don't forget the name/path to the keystore file, passphrase you used, or the alias you used, in my case "tankrun"
+
+Sign your APKs using jarsigner using the private key you generated:
+
+For multiple APKs, simply repeat the process, replacing the filename(s) as appropriate:
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore tank-run-release-key.keystore TankRun-armv7-unsigned.android.20160112083141.apk tankrun
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1
+-keystore tank-run-release-key.keystore TankRun-x86-unsigned.android.20160112083132.apk tankrun
+
+Verify that the APKs are signed using jarsigner
+jarsigner -verify -verbose -certs TankRun-armv7-unsigned.android.20160112083141.apk
+
+
+Align (using zipalign) and rename APKs to finalize the process
+The following steps require Android build tools
+set PATH=%PATH%;"C:\Users\James\AppData\Local\Android\android-sdk\build-tools\23.0.2"
+zipalign -v 4 TankRun-x86-unsigned.android.20160112083132.apk TankRun-x86-1.0.apk
+zipalign -v 4 TankRun-x86-unsigned.android.20160112083132.apk TankRun-x86-1.0.apk
+
+http://developer.android.com/tools/publishing/app-signing.html
