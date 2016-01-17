@@ -1,0 +1,18 @@
+{
+    "cordova-plugin-device": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device@latest"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-splashscreen": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-splashscreen@latest"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
